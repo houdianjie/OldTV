@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">电视直播</string>
+    <string-array name="tv_paths">
+<!--备用直播源-->
+        <!--<item>33#CCTV-1HD#http://183.251.61.207/PLTV/88888888/224/3221225812/index.m3u8</item>
+        <item>34#CCTV-1HD#http://183.251.61.207/PLTV/88888888/224/3221225922/index.m3u8</item>-->
+        <!--<item>37#CCTV-3HD#http://183.251.61.207/PLTV/88888888/224/3221225801/index.m3u8</item>-->
+       <!-- <item>40#CCTV-5HD#http://183.251.61.207/PLTV/88888888/224/3221225925/index.m3u8</item>
+        <item>41#CCTV-5HD#http://183.251.61.207/PLTV/88888888/224/3221225803/index.m3u8</item>-->
+        <!--<item>45#CCTV-7HD#http://183.251.61.207/PLTV/88888888/224/3221225805/index.m3u8</item>-->
+        <!--<item>47#CCTV-8HD#http://183.251.61.207/PLTV/88888888/224/3221225806/index.m3u8</item>-->
+        <!--<item>49#CCTV-9HD#http://183.251.61.207/PLTV/88888888/224/3221225820/index.m3u8</item>-->
+      <!--  <item>51#CCTV-10HD#http://183.251.61.207/PLTV/88888888/224/3221225814/index.m3u8</item>-->
+       <!-- <item>54#CCTV-12HD#http://183.251.61.207/PLTV/88888888/224/3221225932/index.m3u8</item>-->
+       <!-- <item>57#CCTV-14HD#http://183.251.61.207/PLTV/88888888/224/3221225819/index.m3u8</item>-->
+            <!-- 江西卫视,http://183.251.61.207/PLTV/88888888/224/3221225868/index.m3u8-->
+            <!--<item>16#CCTV-14HD#http://183.251.61.207/PLTV/88888888/224/3221225819/index.m3u8</item>-->
+        <item>01#CCTV1#http://183.251.61.207/PLTV/88888888/224/3221225829/index.m3u8</item>
+        <item>02#CCTV-2HD#http://183.251.61.207/PLTV/88888888/224/3221225923/index.m3u8</item>
+        <item>03#CCTV-3HD#http://183.251.61.207/PLTV/88888888/224/3221225924/index.m3u8</item>
+        <item>04#CCTV-4HD#http://183.251.61.207/PLTV/88888888/224/3221225802/index.m3u8</item>
+        <item>05#山东卫视#http://183.251.61.207/PLTV/88888888/224/3221225843/index.m3u8</item>
+        <item>06#CCTV-5HD#http://183.251.61.207/PLTV/88888888/224/3221225912/index.m3u8</item>
+        <item>07#CCTV-5+HD#http://183.251.61.207/PLTV/88888888/224/3221225915/index.m3u8</item>
+        <item>08#CCTV-6HD#http://183.251.61.207/PLTV/88888888/224/3221225804/index.m3u8</item>
+        <item>09#CCTV-7HD#http://183.251.61.207/PLTV/88888888/224/3221225927/index.m3u8</item>
+        <item>10#CCTV-8HD#http://183.251.61.207/PLTV/88888888/224/3221225928/index.m3u8</item>
+        <item>11#CCTV-9HD#http://183.251.61.207/PLTV/88888888/224/3221225929/index.m3u8</item>
+        <item>12#CCTV-10HD#http://183.251.61.207/PLTV/88888888/224/3221225931/index.m3u8</item>
+        <item>13#CCTV-11HD#http://183.251.61.207/PLTV/88888888/224/3221225815/index.m3u8</item>
+        <item>14#CCTV-12HD#http://183.251.61.207/PLTV/88888888/224/3221225816/index.m3u8</item>
+        <item>15#CCTV-13HD#http://183.251.61.207/PLTV/88888888/224/3221225817/index.m3u8</item>
+        <item>16#山东卫视#http://183.251.61.207/PLTV/88888888/224/3221225843/index.m3u8</item>
+        <item>17#CCTV-15HD#http://183.251.61.207/PLTV/88888888/224/3221225818/index.m3u8</item>
+        <item>18#凤凰资讯#http://183.251.61.207/PLTV/88888888/224/3221225901/index.m3u8</item>
+        <item>19#凤凰卫视#http://183.251.61.207/PLTV/88888888/224/3221225900/index.m3u8</item>
+        <item>20#北京卫视#http://183.251.61.207/PLTV/88888888/224/3221225826/index.m3u8</item>
+        <item>21#湖南卫视#http://183.251.61.207/PLTV/88888888/224/3221225827/index.m3u8</item>
+        <item>22#浙江卫视#http://183.251.61.207/PLTV/88888888/224/3221225825/index.m3u8</item>
+        <item>23#东方卫视#http://183.251.61.207/PLTV/88888888/224/3221225828/index.m3u8</item>
+        <item>24#东南卫视#http://183.251.61.207/PLTV/88888888/224/3221225833/index.m3u8</item>
+        <item>25#天津卫视#http://183.251.61.207/PLTV/88888888/224/3221225830/index.m3u8</item>
+        <item>26#天津卫视#http://183.251.61.207/PLTV/88888888/224/3221225941/index.m3u8</item>
+        <item>27#江苏卫视#http://183.251.61.207/PLTV/88888888/224/3221225930/index.m3u8</item>
+        <item>28#江苏卫视#http://183.251.61.207/PLTV/88888888/224/3221225847/index.m3u8</item>
+        <item>29#广东卫视#http://183.251.61.207/PLTV/88888888/224/3221225824/index.m3u8</item>
+        <item>30#深圳卫视#http://183.251.61.207/PLTV/88888888/224/3221225848/index.m3u8</item>
+        <item>31#宁夏卫视#http://183.251.61.207/PLTV/88888888/224/3221225849/index.m3u8</item>
+        <item>32#陕西卫视#http://183.251.61.207/PLTV/88888888/224/3221225850/index.m3u8</item>
+        <item>33#吉林卫视#http://183.251.61.207/PLTV/88888888/224/3221225851/index.m3u8</item>
+        <item>34#贵州卫视#http://183.251.61.207/PLTV/88888888/224/3221225838/index.m3u8</item>
+        <item>35#山西卫视#http://183.251.61.207/PLTV/88888888/224/3221225839/index.m3u8</item>
+        <item>36#湖北卫视#http://183.251.61.207/PLTV/88888888/224/3221225840/index.m3u8</item>
+        <item>37#青海卫视#http://183.251.61.207/PLTV/88888888/224/3221225841/index.m3u8</item>
+        <item>38#厦门卫视#http://61.58.60.247:9000/live/234.m3u8</item>
+        <item>39#湖南国际#http://61.58.60.247:9000/live/231.m3u8</item>
+        <item>40#河南卫视#http://183.251.61.207/PLTV/88888888/224/3221225842/index.m3u8</item>
+        <item>41#新疆卫视#http://183.251.61.207/PLTV/88888888/224/3221225852/index.m3u8</item>
+        <item>42#云南卫视#http://183.251.61.207/PLTV/88888888/224/3221225853/index.m3u8</item>
+        <item>43#西藏卫视#http://183.251.61.207/PLTV/88888888/224/3221225854/index.m3u8</item>
+        <item>44#旅游卫视#http://183.251.61.207/PLTV/88888888/224/3221225855/index.m3u8</item>
+        <item>45#江西卫视#http://183.251.61.207/PLTV/88888888/224/3221225834/index.m3u8</item>
+        <item>46#四川卫视#http://183.251.61.207/PLTV/88888888/224/3221225835/index.m3u8</item>
+        <item>47#广西卫视#http://183.251.61.207/PLTV/88888888/224/3221225836/index.m3u8</item>
+        <item>48#河北卫视#http://183.251.61.207/PLTV/88888888/224/3221225837/index.m3u8</item>
+        <item>49#安徽卫视#http://183.251.61.207/PLTV/88888888/224/3221225844/index.m3u8</item>
+        <item>50#甘肃卫视#http://183.251.61.207/PLTV/88888888/224/3221225845/index.m3u8</item>
+        <item>51#内蒙古卫视#http://183.251.61.207/PLTV/88888888/224/3221225846/index.m3u8</item>
+        <item>52#重庆卫视#http://183.251.61.207/PLTV/88888888/224/3221225831/index.m3u8</item>
+        <item>53#辽宁卫视#http://183.251.61.207/PLTV/88888888/224/3221225832/index.m3u8</item>
+        <item>54#黑龙江卫视#http://183.251.61.207/PLTV/88888888/224/3221225940/index.m3u8</item>
+        <item>55#黑龙江卫视#http://183.251.61.207/PLTV/88888888/224/3221225940/index.m3u8</item>
+        <item>56#动作电影#http://183.251.61.207/PLTV/88888888/224/3221225879/index.m3u8</item>
+        <item>57#古装剧场#http://183.251.61.207/PLTV/88888888/224/3221225880/index.m3u8</item>
+        <item>58#海外剧场#http://183.251.61.207/PLTV/88888888/224/3221225881/index.m3u8</item>
+        <item>59#爱情喜剧#http://183.251.61.207/PLTV/88888888/224/3221225877/index.m3u8</item>
+        <item>60#家庭剧场#http://183.251.61.207/PLTV/88888888/224/3221225882/index.m3u8</item>
+        <item>61#健康有约#http://183.251.61.207/PLTV/88888888/224/3221225883/index.m3u8</item>
+        <item>62#金牌综艺#http://183.251.61.207/PLTV/88888888/224/3221225884/index.m3u8</item>
+        <item>63#惊悚悬疑#http://183.251.61.207/PLTV/88888888/224/3221225885/index.m3u8</item>
+        <item>64#精品体育#http://183.251.61.207/PLTV/88888888/224/3221225886/index.m3u8</item>
+        <item>65#军旅剧场#http://183.251.61.207/PLTV/88888888/224/3221225887/index.m3u8</item>
+        <item>66#精品纪录#http://183.251.61.207/PLTV/88888888/224/3221225888/index.m3u8</item>
+        <item>67#精品大剧#http://183.251.61.207/PLTV/88888888/224/3221225889/index.m3u8</item>
+        <item>68#精品电影#http://183.251.61.207/PLTV/88888888/224/3221225891/index.m3u8</item>
+        <item>69#中国功夫#http://183.251.61.207/PLTV/88888888/224/3221225896/index.m3u8</item>
+        <item>70#明星大片#http://183.251.61.207/PLTV/88888888/224/3221225893/index.m3u8</item>
+        <item>71#山东国际#http://61.58.60.247:9000/live/239.m3u8</item>
+        <item>72#欢笑剧场#http://ott1.ysbn.cn:8088/live/YSGD_YSGD2016010106680413_800.m3u8</item>
+
+       <!-- <item>38#江苏卫视#http://web-play.pptv.com/web-m3u8-300163.m3u8?type=m3u8.web.tv</item>
+        <item>39#安徽卫视#http://web-play.pptv.com/web-m3u8-300162.m3u8?type=m3u8.web.tv</item>
+        <item>40#广西卫视#http://web-play.pptv.com/web-m3u8-300178.m3u8?type=m3u8.web.tv</item>
+        <item>41#广州综合#http://web-play.pptv.com/web-m3u8-300410.m3u8?type=m3u8.web.tv</item>
+        <item>42#广州影视#http://web-play.pptv.com/web-m3u8-300451.m3u8?type=m3u8.web.tv</item>
+        <item>43#兵团卫视#http://web-play.pptv.com/web-m3u8-300157.m3u8?type=m3u8.web.tv</item>
+        <item>44#山东卫视#http://web-play.pptv.com/web-m3u8-300161.m3u8?type=m3u8.web.tv</item>
+        <item>45#贵州卫视#http://web-play.pptv.com/web-m3u8-300174.m3u8?type=m3u8.web.tv</item>
+        <item>46#甘肃卫视#http://web-play.pptv.com/web-m3u8-300148.m3u8?type=m3u8.web.tv</item>
+        <item>47#广东现代教育#http://web-play.pptv.com/web-m3u8-301041.m3u8?type=m3u8.web.tv</item>
+        <item>48#黑龙江卫视#http://web-play.pptv.com/web-m3u8-300172.m3u8?type=m3u8.web.tv</item>
+        <item>49#河北卫视#http://web-play.pptv.com/web-m3u8-300143.m3u8?type=m3u8.web.tv</item>
+        <item>50#江苏卫视#http://web-play.pptv.com/web-m3u8-300163.m3u8?type=m3u8.web.tv</item>
+        <item>51#吉林卫视#http://web-play.pptv.com/web-m3u8-300176.m3u8?type=m3u8.web.tv</item>
+        <item>52#晴彩中原#http://web-play.pptv.com/web-m3u8-301055.m3u8?type=m3u8.web.tv</item>
+        <item>53#东方电影#http://web-play.pptv.com/web-m3u8-300149.m3u8?type=m3u8.web.tv</item>
+        <item>54#江西教育#http://web-play.pptv.com/web-m3u8-304073.m3u8?type=m3u8.web.tv</item>
+        <item>55#内蒙古卫视#http://web-play.pptv.com/web-m3u8-300173.m3u8?type=m3u8.web.tv</item>
+        <item>56#南方影视#http://web-play.pptv.com/web-m3u8-300449.m3u8?type=m3u8.web.tv</item>
+        <item>57#南方综艺#http://web-play.pptv.com/web-m3u8-300406.m3u8?type=m3u8.web.tv</item>
+        <item>58#宁夏卫视#http://web-play.pptv.com/web-m3u8-300187.m3u8?type=m3u8.web.tv</item>
+        <item>59#青海卫视#http://web-play.pptv.com/web-m3u8-300180.m3u8?type=m3u8.web.tv</item>
+        <item>60#深圳卫视#http://web-play.pptv.com/web-m3u8-300188.m3u8?type=m3u8.web.tv</item>
+        <item>61#四川卫视#http://web-play.pptv.com/web-m3u8-300177.m3u8?type=m3u8.web.tv</item>
+        <item>62#陕西卫视#http://web-play.pptv.com/web-m3u8-300170.m3u8?type=m3u8.web.tv</item>
+        <item>63#山西卫视#http://web-play.pptv.com/web-m3u8-300167.m3u8?type=m3u8.web.tv</item>
+        <item>64#上视新娱乐#http://web-play.pptv.com/web-m3u8-300151.m3u8?type=m3u8.web.tv</item>
+        <item>65#上视电视剧#http://web-play.pptv.com/web-m3u8-300153.m3u8?type=m3u8.web.tv</item>
+        <item>66#上视教育#http://web-play.pptv.com/web-m3u8-300150.m3u8?type=m3u8.web.tv</item>
+        <item>67#天津卫视#http://web-play.pptv.com/web-m3u8-300160.m3u8?type=m3u8.web.tv</item>
+        <item>68#新疆卫视#http://web-play.pptv.com/web-m3u8-300411.m3u8?type=m3u8.web.tv</item>-->
+    </string-array>
+
+        <string-array name="tv_path2">
+
+        </string-array>
+</resources>

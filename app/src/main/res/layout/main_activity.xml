@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <io.vov.vitamio.widget.CenterLayout
+        android:id="@+id/dd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+    <io.vov.vitamio.widget.VideoView
+        android:id="@+id/m_video_paly"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    </io.vov.vitamio.widget.CenterLayout>
+<Button
+    android:id="@+id/playVideoBtn"
+    android:onClick="playVideoBtn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="播放"
+    android:layout_alignParentBottom="true"
+    android:visibility="invisible"/>
+    <Button
+        android:id="@+id/playPreVideoBtn"
+        android:onClick="playPreVideoBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="上一个"
+      android:layout_alignTop="@id/playVideoBtn"
+        android:visibility="invisible"
+        />
+    <Button
+        android:id="@+id/playNextVideoBtn"
+        android:onClick="playNextVideoBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下一个"
+        android:layout_alignTop="@id/playVideoBtn"
+        android:layout_alignParentEnd="true"
+        android:visibility="invisible"
+        />
+    <TextView
+        android:id="@+id/tv_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="44"
+        android:textSize="250sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"/>
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="浙江卫视"
+        android:textSize="80sp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"/>
+    <TextView
+        android:id="@+id/chooseTvNumber"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:text=""
+        android:textSize="250sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        />
+</RelativeLayout>
