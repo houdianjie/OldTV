@@ -37,7 +37,8 @@ public class LogoActivity extends Activity {
 new Thread(new Runnable() {
     @Override
     public void run() {
-        boolean isOk =    httpDownload();
+        boolean isOk = httpDownload();
+        //boolean isOk = readFile();
         if(isOk){
          myHandler.sendEmptyMessage(0x100);
         }
@@ -48,18 +49,17 @@ new Thread(new Runnable() {
 }).start();
     }
 
-    private boolean downloadFile(){
-        String http = "http://wanvip.picp.net/app/tvm3u8list.txt";
-        //创建下载任务,downloadUrl就是下载链接
-        DownloadManager.Request request = new DownloadManager.Request(Uri.parse(http));
-//指定下载路径和下载文件名
-        request.setDestinationInExternalPublicDir("/Download/", "tvm3u8list.txt");
-//获取下载管理器
-        DownloadManager downloadManager= (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
-//将下载任务加入下载队列，否则不会进行下载
-        downloadManager.enqueue(request);
-
-        return true;
+    private boolean readFile(){
+        ParseXml parseXml = new ParseXml();
+        try {
+            InputStream in = getAssets().open("tvm3u8list.xml");
+            tvListItems =  parseXml.parseTvitems(in);
+            in.close();
+            return true;
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return false;
     }
 
     private boolean httpDownload(){
